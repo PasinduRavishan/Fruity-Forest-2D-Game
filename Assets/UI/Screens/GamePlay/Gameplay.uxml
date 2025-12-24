@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GameOver" src="project://database/Assets/UI/Screens/GameOver/GameOver.uxml?fileID=9197481963319205126&amp;guid=a781f61ec9e1043c896e6dd5071f4750&amp;type=3#GameOver"/>
+    <Style src="project://database/Assets/UI/Screens/GamePlay/Gameplay.uss?fileID=7433441132597879392&amp;guid=952804f852d9042f59a866dcbeb2d8e1&amp;type=3#Gameplay"/>
+    <ui:VisualElement style="flex-grow: 1; width: 10px; height: 10px; position: absolute; align-items: stretch; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; background-image: url(&quot;project://database/Assets/fruity-forest-assets/heart.png?fileID=-205270267638800340&amp;guid=fecbc4c4c11dd444c9eb189a84b75696&amp;type=3#heart_0&quot;); top: 8px; left: 4px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;"/>
+    <ui:VisualElement name="life-container" class="life-container">
+        <ui:Label name="life-label" text="X 5" class="life-text"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="score-container" class="score-container">
+        <ui:Label name="score-label" text="Score: 2758" class="score-text"/>
+    </ui:VisualElement>
+    <ui:Instance template="GameOver" name="gameoveroverlay" style="position: absolute; width: 100%; height: 100%; display: none;"/>
+</ui:UXML>

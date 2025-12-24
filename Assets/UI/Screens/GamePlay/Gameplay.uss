@@ -1,0 +1,30 @@
+:root {
+
+}
+
+.life-container {
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.life-text {
+    color: white;
+    font-size: 8px;
+    -unity-font-style: bold;
+    margin-left: 8px;
+}
+.score-container {
+    position: absolute;
+    top: 3px;
+    right: 2px;
+}
+
+.score-text {
+    color: white;
+    font-size: 8px;
+    -unity-font-style: bold;
+    
+}

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Screens/Main%20Menu/Main%20Menu.uss?fileID=7433441132597879392&amp;guid=6584b37a4de8b4edf969851d846b9947&amp;type=3#Main Menu"/>
+    <ui:VisualElement name="VisualElement" class="main-menu-bg" style="background-image: url(&quot;project://database/Assets/fruity-forest-assets/main-menu-bg.png?fileID=-9070794581146680962&amp;guid=84dd919bd337840e3bbefd03eb314792&amp;type=3#main-menu-bg_0&quot;);">
+        <ui:VisualElement class="main-menu-content-container" style="color: rgb(27, 27, 27); background-color: rgba(65, 105, 225, 0);">
+            <ui:VisualElement class="logo-img" style="background-image: url(&quot;project://database/Assets/fruity-forest-assets/logo.png?fileID=-4320295261928297051&amp;guid=e2879c8a751df4f4582d772d64fe7ae4&amp;type=3#logo_0&quot;); height: 78px; width: 149%;"/>
+            <ui:VisualElement class="menu-btn-container" style="justify-content: flex-start; align-items: center;">
+                <ui:Button text="PLAY" name="playbutton" class="menu-btn" style="background-image: url(&quot;project://database/Assets/fruity-forest-assets/primary-btn.png?fileID=3704757855628510496&amp;guid=5e46f6080121c40b9a0172987e62cd64&amp;type=3#primary-btn_0&quot;); -unity-font-style: bold; width: 74px; font-size: 10px; height: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 8px; margin-left: 0;"/>
+                <ui:Button text="SETTINGS" class="menu-btn" style="background-image: url(&quot;project://database/Assets/fruity-forest-assets/primary-btn.png?fileID=3704757855628510496&amp;guid=5e46f6080121c40b9a0172987e62cd64&amp;type=3#primary-btn_0&quot;); -unity-font-style: bold; width: 75px; font-size: 10px; height: 20px; margin-bottom: 8px;"/>
+                <ui:Button text="EXIT" class="menu-btn" style="background-image: url(&quot;project://database/Assets/fruity-forest-assets/primary-btn.png?fileID=3704757855628510496&amp;guid=5e46f6080121c40b9a0172987e62cd64&amp;type=3#primary-btn_0&quot;); -unity-font-style: bold; font-size: 10px; width: 75px; height: 10px; margin-bottom: 8px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

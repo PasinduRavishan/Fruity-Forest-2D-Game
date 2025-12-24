@@ -1,0 +1,36 @@
+.main-menu-bg{
+    height : 100%;
+    width : 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.main-menu-content-container{
+    height : 80%;
+    width : 70%;
+    background-color: rgba(65, 105, 225, 0.2);
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-img{
+     width : 75%;
+    height : 150px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.menu-btn{
+    background-color: transparent;
+    margin : 0;
+    border-width: 0;
+    width: 140px;
+    height : 40px;
+    color: white;
+    font-size: 20px;
+    -unity-background-scale-mode: scale-to-fit;
+    margin-bottom: 27px;
+}
